@@ -1,0 +1,11 @@
+[project]
+name = "sales_prediction"
+
+[data]
+raw_dir = "data/raw"
+cache_dir = "cache"
+processed_dir = "data/processed"
+
+[preprocess]
+# trueならキャッシュを優先、falseなら強制的に最初から結合し直す
+use_cache = true

@@ -1,0 +1,13 @@
+# Python / uv環境
+.venv/
+__pycache__/
+
+# データ・キャッシュ
+data/
+cache/
+
+# 出力結果
+outputs/
+
+# OSの隠しファイル
+.DS_Store
